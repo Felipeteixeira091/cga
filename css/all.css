@@ -1,0 +1,11 @@
+body {
+    background-color: MidnightBlue;
+}
+tbody{
+    background-color: ghostwhite;
+}
+#erro{display: none;}
+#erro1{display: none;}
+#sucesso{display: none;}
+#alerta{display: none;}
+#logo{background-color: MidnightBlue; color: floralwhite; padding: 2px;}

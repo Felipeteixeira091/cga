@@ -1,0 +1,154 @@
+
+RewriteOptions inherit
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+RewriteRule ^index/?$ index.php [NC,L]
+RewriteRule ^telaLogin/?$ telaLogin.php [NC,L]
+
+RewriteRule ^ODIN/?$ odin.php [NC,L]
+
+RewriteRule ^GEST.NOTA/?$ EXT_VALIDA.php [NC,L]
+RewriteRule ^CGA.CARIMBO/?$ CGA_CARIMBO.php [NC,L]
+RewriteRule ^srcCarimbo/?$ sc/CGACARIMBO.php [NC,L]
+
+RewriteRule ^PERMISSAO/?$ Permissao.php [NC,L]
+RewriteRule ^USUARIO/?$ USUARIO.php [NC,L]
+RewriteRule ^GMG/?$ GMG.php [NC,L]
+RewriteRule ^SITE/?$ SITE.php [NC,L]
+RewriteRule ^ADM/?$ ADM.php [NC,L]
+
+RewriteRule ^processaLogin/?$ sc/l.php [NC,L]
+RewriteRule ^verificaLogin/?$ sc/l_verifica.php [NC,L]
+RewriteRule ^logOut/?$ sc/logOut.php [NC,L]
+RewriteRule ^menu_php/?$ sc/menu.php [NC,L]
+RewriteRule ^menu_php2/?$ sc/menu2.php [NC,L]
+RewriteRule ^indexSC/?$ sc/scINDEX.php [NC,L]
+
+RewriteRule ^PermissaoSC/?$ sc/scPermissao.php [NC,L]
+RewriteRule ^USUARIOSC/?$ sc/scUSUARIO.php [NC,L]
+RewriteRule ^ResetaSenhaSC/?$ sc/scResetaSenha.php [NC,L]
+RewriteRule ^scGMG/?$ sc/scGMG.php [NC,L]
+RewriteRule ^PermissaoSC/?$ sc/scPermissao.php [NC,L]
+RewriteRule ^SiteSC/?$ sc/scSITE.php [NC,L]
+RewriteRule ^scADM/?$ sc/scADM.php [NC,L]
+RewriteRule ^dadosAltera/?$ sc/l_dadosAltera.php [NC,L]
+
+RewriteRule ^ADMXLS/?$ sc/ADMXLS.php [NC,L]
+
+RewriteRule ^SCE_SOLICITACAO/?$ SCE_SOLICITACAO.php [NC,L]
+RewriteRule ^SCE_PENDENTE/?$ SCE_PENDENTE.php [NC,L]
+RewriteRule ^SCE_PLANTAO/?$ SCE_PLANTAO.php [NC,L]
+RewriteRule ^SCE_ENVIO/?$ SCE_ENVIO.php [NC,L]
+RewriteRule ^SCE_COLABORADOR/?$ SCE_COLABORADOR.php [NC,L]
+
+RewriteRule ^SMA_SOLICITACAO/?$ SMA_SOLICITACAO.php [NC,L]
+RewriteRule ^SMA_PENDENTE/?$ SMA_PENDENTE.php [NC,L]
+RewriteRule ^SMA_EDICAO/?$ SMA_EDICAO.php [NC,L]
+RewriteRule ^SMA_PA/?$ SMA_PA.php [NC,L]
+RewriteRule ^SMAANEXO/?$ sma_anexo/ [NC,L]
+
+RewriteRule ^CEP_CADASTRO/?$ CEP_CADASTRO.php [NC,L]
+RewriteRule ^CEP_ELEMENTO/?$ CEP_ELEMENTO.php [NC,L]
+
+RewriteRule ^VFB_PENDENTE/?$ VFB_PENDENTE.php [NC,L]
+RewriteRule ^VFB_AC/?$ VFB_AC.php [NC,L]
+
+RewriteRule ^GAS_LANCAMENTO/?$ GAS_LANCAMENTO.php [NC,L]
+RewriteRule ^GAS_SALDO/?$ GAS_SALDO.php [NC,L]
+
+RewriteRule ^GMG_ACOPLAMENTO/?$ GMG_ACOPLAMENTO.php [NC,L]
+
+RewriteRule ^SBO_BO/?$ SBO_BO.php [NC,L]
+
+RewriteRule ^SCP_REGISTRO/?$ SCP_REGISTRO.php [NC,L]
+RewriteRule ^SCP_VALIDACAO/?$ SCP_VALIDACAO.php [NC,L]
+
+RewriteRule ^SCESOLICITACAO/?$ sc/SCESOLICITACAO.php [NC,L]
+RewriteRule ^SCEPENDENTE/?$ sc/SCEPENDENTE.php [NC,L]
+RewriteRule ^SCESPLANTAO/?$ sc/SCESPLANTAO.php [NC,L]
+RewriteRule ^SCEENVIO/?$ sc/SCEENVIO.php [NC,L]
+RewriteRule ^SCEXLS/?$ sc/SCEXLS.php [NC,L]
+RewriteRule ^SCECOLABORADOR/?$ sc/SCECOLABORADOR.php [NC,L]
+
+RewriteRule ^SCEUPLOAD/?$ sc/SCEUPLOAD.php [NC,L]
+
+RewriteRule ^GASXLS/?$ sc/GASXLS.php [NC,L]
+
+RewriteRule ^SMASOLICITACAO/?$ sc/SMASOLICITACAO.php [NC,L]
+RewriteRule ^SMAPENDENTE/?$ sc/SMAPENDENTE.php [NC,L]
+RewriteRule ^SMAPA/?$ sc/SMAPA.php [NC,L]
+RewriteRule ^SMAEDICAO/?$ sc/SMAEDICAO.php [NC,L]
+RewriteRule ^SMAUPLOAD/?$ sc/SMAUPLOAD.php [NC,L]
+RewriteRule ^XLSSMA/?$ sc/SMA_XLS.php [NC,L]
+
+RewriteRule ^CEPCADASTRO/?$ sc/CEPCADASTRO.php [NC,L]
+RewriteRule ^CEPELEMENTO/?$ sc/CEPELEMENTO.php [NC,L]
+RewriteRule ^CEPXLS/?$ sc/CEPXLS.php [NC,L]
+
+RewriteRule ^EXTCADASTRO/?$ sc/EXTCADASTRO.php [NC,L]
+RewriteRule ^EXTVALIDA/?$ sc/EXTVALIDA.php [NC,L]
+RewriteRule ^NOTAUPLOAD/?$ sc/NOTAUPLOAD.php [NC,L]
+
+RewriteRule ^SGADESCARTEUPLOAD/?$ sc/SGADESCARTEUPLOAD.php [NC,L]
+
+RewriteRule ^XLSEFOLHA/?$ sc/EXTXLS.php [NC,L]
+
+RewriteRule ^CCC_CADASTRO/?$ CCC_CADASTRO.php [NC,L]
+RewriteRule ^CCCCADASTRO/?$ sc/CCCCADASTRO.php [NC,L]
+RewriteRule ^XLSCCC/?$ sc/CCCXLS.php [NC,L]
+RewriteRule ^CCCUPLOAD/?$ sc/CCCUPLOAD.php [NC,L]
+
+RewriteRule ^VFBAC/?$ sc/VFBAC.php [NC,L]
+RewriteRule ^VFBPENDENTE/?$ sc/VFBPENDENTE.php [NC,L]
+RewriteRule ^VFBUPLOAD/?$ sc/VFBUPLOAD.php [NC,L]
+RewriteRule ^VFBDOWNLOAD/?$ vfb_anexo/ [NC,L]
+RewriteRule ^XLSVFB/?$ sc/VFB_XLS.php [NC,L]
+
+RewriteRule ^GASLANCAMENTO/?$ sc/GASLANCAMENTO.php [NC,L]
+RewriteRule ^GASSALDO/?$ sc/GASSALDO.php [NC,L]
+
+RewriteRule ^GMGACOPLAMENTO/?$ sc/GMGACOPLAMENTO.php [NC,L]
+RewriteRule ^GMGXLS/?$ sc/GMGXLS.php [NC,L]
+
+RewriteRule ^SBOBO/?$ sc/SBOBO.php [NC,L]
+RewriteRule ^SBOUPLOAD/?$ sc/SBOUPLOAD.php [NC,L]
+RewriteRule ^SBOXLS/?$ sc/SBOXLS.php [NC,L]
+
+RewriteRule ^SCPREGISTRO/?$ sc/SCPREGISTRO.php [NC,L]
+RewriteRule ^SCPVALIDACAO/?$ sc/SCPVALIDACAO.php [NC,L]
+RewriteRule ^SCPXLS/?$ sc/SCPXLS.php [NC,L]
+
+RewriteRule ^SGA_SALDO/?$ SGA_SALDO.php [NC,L]
+RewriteRule ^SGASALDO/?$ sc/SGASALDO.php [NC,L]
+
+RewriteRule ^SGA_SALDO_GERAL/?$ SGA_SALDO_GERAL.php [NC,L]
+RewriteRule ^SGASALDOGERAL/?$ sc/SGASALDOGERAL.php [NC,L]
+
+RewriteRule ^DESCARTE/?$ SGA_DESCARTE.php [NC,L]
+RewriteRule ^SGADESCARTE/?$ sc/SGA_DESCARTE.php [NC,L]
+
+RewriteRule ^SGA_PENDENTE/?$ SGA_PENDENTE.php [NC,L]
+RewriteRule ^SGAPENDENTE/?$ sc/SGAPENDENTE.php [NC,L]
+RewriteRule ^XLSSGA/?$ sc/SGA_XLS.php [NC,L]
+RewriteRule ^XLSSGASALDO/?$ sc/SGA_XLS_SALDO.php [NC,L]
+
+RewriteRule ^PSF_CADASTRO/?$ PSF_CADASTRO.php [NC,L]
+RewriteRule ^PSFCADASTRO/?$ sc/PSFCADASTRO.php [NC,L]
+
+RewriteRule ^PROCESSO_ICO/?$ PROCESSO.php [NC,L]
+RewriteRule ^PROCESSOSC/?$ sc/PROCESSO.php [NC,L]
+RewriteRule ^PROCESSOUPLOAD/?$ sc/PROCESSOUPLOAD.php [NC,L]
+
+
+</IfModule>
+RewriteCond %{HTTP_HOST} ^oem\.solicitacaooem\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.oem\.solicitacaooem\.com\.br$
+RewriteRule ^/?$ "https\:\/\/solicitacaooem\.com\.br\/" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Defina o pacote “ea-php73” como a linguagem padrão de programação “PHP”.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73___lsphp .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
